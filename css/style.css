@@ -758,11 +758,12 @@ html {
 }
 @media (max-width: 500px) {
   .inst{
-    z-index:100;
+     z-index: 100;
     width: 80px;
-    bottom:auto;
-    top:65px;
-  }
+    bottom: auto;
+    top: 60px;
+}
+  
   .inst svg{
     width:100%;
     
