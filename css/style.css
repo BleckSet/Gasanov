@@ -261,7 +261,7 @@ html {
 }
 
 .logo {
-  z-index: 999;
+  z-index: 99;
   position: absolute;
   top: 0;
   left: 50%;
@@ -757,6 +757,16 @@ html {
   }
 }
 @media (max-width: 500px) {
+  .inst{
+    z-index:100;
+    width: 80px;
+    bottom:auto;
+    top:65px;
+  }
+  .inst svg{
+    width:100%;
+    
+  }
   .hoody img:first-child, .hoody img:nth-child(2) {
     -webkit-transform: scale(1) translateY(22px);
             transform: scale(1) translateY(22px);
